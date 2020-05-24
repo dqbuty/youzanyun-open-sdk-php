@@ -52,7 +52,7 @@ class Client
 
     private function parseResponse($responseData)
     {
-        return json_decode($responseData, true);
+        return json_decode($responseData, false);
     }
 
 }
